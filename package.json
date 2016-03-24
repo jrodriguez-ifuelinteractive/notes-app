@@ -4,7 +4,13 @@
   "description": "Simple Notes App",
   "main": "main.js",
   "scripts": {
+    "postinstall": "./bin/setup.sh",
     "start": "electron main.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrodriguez-ifuelinteractive/notes-app"
   },
   "devDependencies": {
     "electron-prebuilt": "^0.36.0",
